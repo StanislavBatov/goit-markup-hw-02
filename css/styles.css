@@ -49,9 +49,9 @@ body {
   color: var(--navy-blue-color);
 }
 
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--ocean-color);
+.menu-item :active {
+  text-decoration: underline;
+  color: #404BBF;
 }
 
 .address-link {
@@ -115,7 +115,7 @@ body {
     overflow: hidden;
   }
 
-.feature-titel {
+.feature-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -151,7 +151,6 @@ body {
 }
 
 .team-name {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
