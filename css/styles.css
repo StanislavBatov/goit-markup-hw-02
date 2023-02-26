@@ -51,7 +51,6 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  text-decoration: underline;
   color: var(--ocean-color);
 }
 
@@ -117,6 +116,7 @@ body {
   }
 
 .feature-titel {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -151,6 +151,7 @@ body {
 }
 
 .team-name {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
