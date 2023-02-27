@@ -88,14 +88,16 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: var(--white-color);
-  background: var(--iris-color);
+  color: var(--iris-color);
+  background: var(--cloud-color);
   border-radius: 4px;
   cursor: pointer;
+  border: none;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
+  color:var(--white-color);
   background: var(--ocean-color);
 }
 
